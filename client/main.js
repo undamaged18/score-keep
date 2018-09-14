@@ -13,7 +13,7 @@ Meteor.startup(() => {
             }
         }).fetch();
         let positionedPlayers = calculatePosition(players);
-        let title = 'Score Keep App';
+        let title = 'Score Keep';
         ReactDom.render(
         <App 
         title={title} 
